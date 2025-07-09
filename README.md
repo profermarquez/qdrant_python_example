@@ -12,5 +12,9 @@ La API estará disponible en: http://localhost:6333
 # Para el CRUDL en Python 
 
 virtualenv env 
+
 .\env\Scripts\activate
+
 pip install qdrant-client
+
+py .\CRUDL-qdrant-python.py
